@@ -1,6 +1,5 @@
 
 # Task: Read data from a text file and count lines and words
-# Author: Anisha Karki
 
 file_path = "C:/Users/dell/OneDrive/Desktop/Anisha/internship_project_anisha/python_basics/sample.txt"
 
@@ -17,4 +16,4 @@ try:
 except FileNotFoundError:
     print(f"File not found! Make sure '{file_path}' exists in your folder.")
 except Exception as e:
-    print(f"Oops! Something went wrong: {e}")
+    print(f"oh Something went wrong: {e}")

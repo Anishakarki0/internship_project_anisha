@@ -1,11 +1,13 @@
-# Task: Check if a number is even or odd
+# Program to check if a number is even or odd
+
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
 
 try:
-    user_number = int(input("Hello! Enter a number to see if it's even or odd: "))
-    print("Checking your number...")
-    if user_number % 2 == 0:
-        print(f"Great! {user_number} is an even number.")
-    else:
-        print(f"{user_number} is an odd number. Interesting!")
+    user_input = int(input("Enter a number: "))
+    print(f"The number {user_input} is {check_even_odd(user_input)}")
 except ValueError:
-    print("Oops! That wasn’t a valid integer. Please try again.")
+    print("Invalid input! Please enter an integer.")
