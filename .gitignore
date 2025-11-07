@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# OS / Windows
+.DS_Store
+Thumbs.db
+
+# Node / JS
+node_modules/
+
+# OneDrive temp files
+*.lnk
+~$*
