@@ -1,0 +1,5 @@
+Hello Anisha!
+Welcome to your internship project.
+This is a sample text file.
+You will count lines and words using Python.
+me
