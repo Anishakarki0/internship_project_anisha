@@ -18,14 +18,13 @@ form.addEventListener('submit', function(e) {
     return;
   }
 
-  // email format validation
   const emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;
   if (!emailPattern.test(email)) {
     msg.textContent = 'Invalid email format!';
     return;
   }
 
-  // password length check
+  
   if (password.length < 6) {
     msg.textContent = 'Password must be at least 6 characters!';
     return;
