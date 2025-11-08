@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  margin: 30px;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  color: #333;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+.flash {
+  color: green;
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 5px;
+}
