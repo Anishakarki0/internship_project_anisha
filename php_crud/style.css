@@ -1,0 +1,14 @@
+
+
+body {
+    background-color: #dadbd0;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+  box-shadow: 5px 5px 10px rgb(78, 78, 76);
+}
