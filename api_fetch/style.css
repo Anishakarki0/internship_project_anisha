@@ -1,0 +1,55 @@
+/* External CSS for Random User API project */
+/* Developer: Anisha Karki */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfe0d9;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 5px 30px 10px rgba(0,0,0,0.1);
+    width: 320px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #0077b6;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+p {
+    color: #555;
+    font-size: 15px;
+}
+
+button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #023e8a;
+}
